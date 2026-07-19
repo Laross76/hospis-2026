@@ -1,4 +1,4 @@
-package ru.iteco.fmhandroid.ui;
+package ru.iteco.fmhandroid.ui.test;
 
 import static org.junit.Assert.assertEquals;
 import static ru.iteco.fmhandroid.ui.data.Helper.generateRandomThreeDigitString;
@@ -17,6 +17,7 @@ import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.Epic;
 import io.qameta.allure.kotlin.junit4.DisplayName;
 import ru.iteco.fmhandroid.EspressoIdlingResources;
+import ru.iteco.fmhandroid.ui.AppActivity;
 import ru.iteco.fmhandroid.ui.data.Data;
 import ru.iteco.fmhandroid.ui.pageObject.AboutPage;
 import ru.iteco.fmhandroid.ui.pageObject.AuthorizationPage;
